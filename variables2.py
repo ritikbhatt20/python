@@ -4,3 +4,5 @@ print(score)
 print(type(score))
 
 print(f"Score is {score}")
+print(name:="ritik")
+print(name)
