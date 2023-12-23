@@ -1,0 +1,11 @@
+course = "    Python lol"
+a = course.split(" ")
+b = course.isdecimal()
+c = course.upper()
+d = course.strip()
+e = course.title()
+f = course.find("yth")
+g = course.__contains__("  Pyth")
+print(g)
+print(course.replace("o", "j"))
+print("Pyth" in course)
