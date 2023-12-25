@@ -1,4 +1,4 @@
-sentence = "This is a common interview question"
+sentence = "This is a common interviiew question"
 frequency = {}
 for letter in sentence:
     if letter in frequency:
@@ -14,4 +14,4 @@ for item in frequency:
         max = frequency.get(item)
         char = item
 
-print("The most repeated character is", char)
+print("The most repeated character is", char, max)
