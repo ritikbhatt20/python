@@ -1,0 +1,11 @@
+python3 -m venv env 
+pip install requests==2.9.0  
+pip list 
+.\env\Scripts\activate  
+
+pipenv-- dependency manager for Python projects like npm
+
+python -m pipenv
+python -m pipenv install requests
+
+pipenv --venv  (path for our virtual environment directory)
